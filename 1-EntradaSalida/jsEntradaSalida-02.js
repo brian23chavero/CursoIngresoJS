@@ -1,16 +1,14 @@
 /*
+chavero brian
+ejercicio 2
 Debemos lograr tomar un nombre con 'prompt' 
 y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
+//siempre guardo lugar en la variable
+    var nombre; 
 
-    let nombre;
-      
-
-   nombre = prompt ("escriba su nombre");
-
-   
-   alert(nombre);
-	
+    nombre = prompt("ingrese su nombre");
+	alert("su nombre es " + nombre)
 }
 

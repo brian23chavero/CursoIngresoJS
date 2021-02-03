@@ -1,4 +1,6 @@
 /* 
+chavero brian 
+ejercicio 4
 Debemos lograr tomar un dato por 'PROMPT' 
 y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
@@ -12,7 +14,8 @@ function mostrar()
 	nombre = prompt ("escriba su nombre");
 
 	//copio el nombre que tengo guadado en la variable nombre dentro de la caja de texto embebida en la pagina html 
-	document.getElementById("txtIdNombre").value = nombre
-
+	document.getElementById("txtIdNombre").value = nombre //muestra datos
+	
+ 
 }
 
